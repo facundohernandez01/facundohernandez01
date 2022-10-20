@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+const Mensaje = () =>{
+  return <div>
+    hola function expression
+    </div>
 
-function App() {
+}
+const Otro = "hola function expression"
+let savedMoney = 1000000;
+let debtMoney = 400000;
+let totalMoney = savedMoney - debtMoney;
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Mensaje />
+      El total de mi dinero actual es  ${totalMoney}
+      
     </div>
   );
 }
