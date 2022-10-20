@@ -5,8 +5,8 @@ const Mensaje = () =>{
     </div>
 
 }
-let savedMoney = 1000000;
-let debtMoney = 400000;
+let savedMoney = 33;
+let debtMoney = 44;
 let totalMoney = savedMoney - debtMoney;
 
 const App = () => {
