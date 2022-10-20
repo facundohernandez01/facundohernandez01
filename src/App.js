@@ -5,7 +5,6 @@ const Mensaje = () =>{
     </div>
 
 }
-const Otro = "hola function expression"
 let savedMoney = 1000000;
 let debtMoney = 400000;
 let totalMoney = savedMoney - debtMoney;
@@ -14,7 +13,7 @@ const App = () => {
   return (
     <div className="App">
      <Mensaje />
-      El total de mi dinero actual es  ${totalMoney}
+      El total de as dinero actual es  ${totalMoney}
       
     </div>
   );
